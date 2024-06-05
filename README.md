@@ -15,3 +15,5 @@
 - ### [РК1](https://github.com/KIrina06/Machine-Learning-Technologies/tree/RK1)
 
 - ### [РК2](https://github.com/KIrina06/Machine-Learning-Technologies/tree/RK2)
+
+- ### [НИР](https://github.com/KIrina06/Machine-Learning-Technologies/tree/%D0%9D%D0%98%D0%A0)
