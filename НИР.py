@@ -339,13 +339,11 @@ for model_name, model in regr_models_grid.items():
 st.subheader('Выводы о качестве построенных моделей на основе выбранных метрик.')
 # Метрики качества модели
 regr_metrics = np.array(['MAE', 'MSE', 'R2'])
-#f1 = regrMetricLogger.plot('Метрика: ' + 'MAE', 'MAE', ascending=False, figsize=(20, 20))
+f1 = regrMetricLogger.plot('Метрика: ' + 'MAE', 'MAE', ascending=False, figsize=(20, 20))
 st.set_option('deprecation.showPyplotGlobalUse', False)
-#st.pyplot(f1)
-st.image('1.png')
-#f2 = regrMetricLogger.plot('Метрика: ' + 'MSE', 'MSE', ascending=False, figsize=(10, 5))
-#st.pyplot(f2)
-st.image('2.png')
+st.pyplot(f1)
+f2 = regrMetricLogger.plot('Метрика: ' + 'MSE', 'MSE', ascending=False, figsize=(10, 5))
+st.pyplot(f2)
 f3 = regrMetricLogger.plot('Метрика: ' + 'R2', 'R2', ascending=True, figsize=(9, 5))
 st.pyplot(f3)
 
